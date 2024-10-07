@@ -14,3 +14,7 @@
 5.	Convolutional Neural Networks (CNNs) for RS: A deep dive into CNNs and their applications in image classification and hyperspectral image analysis.
 6.	Deep Representation Learning: Studying how deep representation learning techniques can be applied for RS image retrieval.
 7.	Hyperspectral Image Processing: Focusing on the analysis and processing of hyperspectral images through multiple related experiments.
+
+### Lab & Homework ✍️
+
+2. Use a ResNet18 architecture for supervised scene classification on multi-label remote sensing images. Apply different data augmentation techniques have to be investigated.
