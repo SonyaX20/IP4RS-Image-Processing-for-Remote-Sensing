@@ -3,4 +3,4 @@
 !*.ipynb
 !*.gitignore
 !*.md
-!tub.png
+!/src/*.png
