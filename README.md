@@ -16,5 +16,8 @@
 7.	Hyperspectral Image Processing: Focusing on the analysis and processing of hyperspectral images through multiple related experiments.
 
 ### Lab & Homework ✍️
-
-2. Use a ResNet18 architecture for supervised scene classification on multi-label remote sensing images. Apply different data augmentation techniques have to be investigated.
+1. Visualize tiles and create pixel-wise classification map.
+2. Use a ResNet18 architecture for supervised scene classification on multi-label remote sensing images. Apply different data augmentation techniques.
+<div align="center">
+  <img alt="Demo" src="./src/clf.png" style="width:20%; height:20%" />
+</div>
