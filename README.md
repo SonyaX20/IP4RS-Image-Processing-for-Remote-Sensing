@@ -19,5 +19,5 @@
 1. Visualize tiles and create pixel-wise classification map.
 2. Use a ResNet18 architecture for supervised scene classification on multi-label remote sensing images. Apply different data augmentation techniques.
 <div align="center">
-  <img alt="Demo" src="./src/clf.png" style="width:20%; height:20%" />
+  <img alt="Demo" src="./src/clf.png" style="width:80%; height:8s0%" />
 </div>
