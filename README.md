@@ -1,23 +1,40 @@
-<h2 align="center">
-  <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=40937&version=3&sprache=2" target="_blank">SoSe2024: Image Processing for Remote Sensing</a><br/>
-  TU Berlin, Computer Engineering MSc.
-</h2>
+[🇨🇳 中文文档 | Chinese README](./README.zh-CN.md)
+
+# Image Processing for Remote Sensing Course
+
+
+## 📚 Content
+1. **Basics of Remote Sensing:** Key concepts, Sentinel-2 data download, structure, and band visualization.
+2. **Image Enhancement & Filtering:** Enhancement techniques, 2D convolution, and histogram analysis for interpretation.
+3. **Edge Detection & Classification:** Edge detection methods, land-cover mapping, and classification techniques.
+4. **Vegetation Indices & Hyperspectral Pixel Classification:** Use of vegetation indices and hyperspectral analysis.
+5. **CNNs for Remote Sensing:** Deep learning (e.g., ResNet18) for image and hyperspectral classification.
+6. **Deep Representation Learning:** Techniques for remote sensing image retrieval.
+7. **Hyperspectral Image Processing:** Advanced analysis and experiments on hyperspectral data.
+
+## 🧪 Lab & Homework
+
+### HW01: Sentinel-2 Data & Visualization
+- **Goal:** Download and visualize Sentinel-2 satellite data, understand data structure, and access specific bands programmatically.
+- **Skills:** Data acquisition, band extraction, visualization, SAFE format analysis.
+
+### HW02: Multi-label Scene Classification with ResNet18
+- **Goal:** Use ResNet18 for supervised multi-label classification of remote sensing images, exploring various data augmentation techniques.
+- **Skills:** Deep learning, PyTorch, data augmentation, multi-label evaluation.
+
+### Labs 01-07: Thematic Experiments
+- **Lab01:** Sentinel-2 basics, Copernicus data access, band visualization.
+- **Lab02-03:** Image enhancement, filtering, and edge detection.
+- **Lab04-05:** Land-cover classification, vegetation indices, pixel-based analysis.
+- **Lab06:** Deep learning for remote sensing, CNNs.
+- **Lab07:** Hyperspectral image processing and advanced classification.
+
 <div align="center">
-  <img alt="Demo" src="./src/tub.png" style="width:10%; height:10%" />
+  <img alt="Demo" src="./src/clf.png" style="width:80%; height:80%" />
 </div>
 
-### Content 😈
-1.	Basics of Remote Sensing: Introduction to key concepts in remote sensing, including working with Sentinel-2 data for visualization and analysis.
-2.	Image Enhancement and Filtering: Understanding image enhancement techniques and applying 2D convolution operations for image filtering. It also covers image histograms for better image interpretation.
-3.	Edge Detection and Classification: Learning edge detection methods and techniques for RS image classification, especially for generating land-cover maps.
-4.	Vegetation Indices and Hyperspectral Pixel Classification: Exploring the use of vegetation indices and hyperspectral pixel classification for remote sensing analysis.
-5.	Convolutional Neural Networks (CNNs) for RS: A deep dive into CNNs and their applications in image classification and hyperspectral image analysis.
-6.	Deep Representation Learning: Studying how deep representation learning techniques can be applied for RS image retrieval.
-7.	Hyperspectral Image Processing: Focusing on the analysis and processing of hyperspectral images through multiple related experiments.
+---
 
-### Lab & Homework ✍️
-1. Visualize tiles and create pixel-wise classification map.
-2. Use a ResNet18 architecture for supervised scene classification on multi-label remote sensing images. Apply different data augmentation techniques.
-<div align="center">
-  <img alt="Demo" src="./src/clf.png" style="width:80%; height:8s0%" />
-</div>
+## 🛠️ Environment
+To export the environment:
+```conda env export > environment.yml```
